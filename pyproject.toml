@@ -6,6 +6,7 @@ authors = ["Egor Shievanov <shievanov@bk.ru>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+requests = "^2.31.0"
 
 [tool.poetry.dev-dependencies]
 

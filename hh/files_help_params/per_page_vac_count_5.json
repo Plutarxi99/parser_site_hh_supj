@@ -1,0 +1,479 @@
+{
+  "items": [
+    {
+      "id": "84200400",
+      "premium": false,
+      "name": "Assistant (Junior Media Planner) / Ассистент медиапланера",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": {
+        "from": 50000,
+        "to": 70000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": {
+        "city": "Москва",
+        "street": "1-й Магистральный тупик",
+        "building": "5A",
+        "lat": 55.766177,
+        "lng": 37.529771,
+        "description": null,
+        "raw": "Москва, 1-й Магистральный тупик, 5A",
+        "metro": {
+          "station_name": "Беговая",
+          "line_name": "Таганско-Краснопресненская",
+          "station_id": "7.18",
+          "line_id": "7",
+          "lat": 55.773505,
+          "lng": 37.545518
+        },
+        "metro_stations": [
+          {
+            "station_name": "Беговая",
+            "line_name": "Таганско-Краснопресненская",
+            "station_id": "7.18",
+            "line_id": "7",
+            "lat": 55.773505,
+            "lng": 37.545518
+          }
+        ],
+        "id": "44460"
+      },
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-08-06T12:06:37+0300",
+      "created_at": "2023-08-06T12:06:37+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=84200400",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/84200400?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/84200400",
+      "relations": [],
+      "employer": {
+        "id": "165809",
+        "name": "Медиа Анлимитед, Рекламное агентство",
+        "url": "https://api.hh.ru/employers/165809",
+        "alternate_url": "https://hh.ru/employer/165809",
+        "logo_urls": {
+          "90": "https://hhcdn.ru/employer-logo/343791.png",
+          "original": "https://hhcdn.ru/employer-logo-original/197966.gif",
+          "240": "https://hhcdn.ru/employer-logo/416648.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=165809",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Образование в сфере рекламы и маркетинга желательно. Опыт работы в медиа агентстве в качестве ассистента медиапланера/байера желателен. ",
+        "responsibility": "Участие в подготовке медиапланов. Подготовка презентаций для клиента с целью рекомендаций для наиболее эффективного расходования бюджета на рекламные цели и..."
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "68",
+          "name": "Менеджер по маркетингу, интернет-маркетолог"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    },
+    {
+      "id": "84062603",
+      "premium": false,
+      "name": "Junior account manager",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": null,
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": {
+        "city": "Москва",
+        "street": "Новослободская улица",
+        "building": "16",
+        "lat": 55.781701,
+        "lng": 37.599364,
+        "description": null,
+        "raw": "Москва, Новослободская улица, 16",
+        "metro": {
+          "station_name": "Менделеевская",
+          "line_name": "Серпуховско-Тимирязевская",
+          "station_id": "9.83",
+          "line_id": "9",
+          "lat": 55.781999,
+          "lng": 37.599141
+        },
+        "metro_stations": [
+          {
+            "station_name": "Менделеевская",
+            "line_name": "Серпуховско-Тимирязевская",
+            "station_id": "9.83",
+            "line_id": "9",
+            "lat": 55.781999,
+            "lng": 37.599141
+          }
+        ],
+        "id": "7171552"
+      },
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-08-07T13:56:28+0300",
+      "created_at": "2023-08-07T13:56:28+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=84062603",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/84062603?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/84062603",
+      "relations": [],
+      "employer": {
+        "id": "1056",
+        "name": "iConText Group",
+        "url": "https://api.hh.ru/employers/1056",
+        "alternate_url": "https://hh.ru/employer/1056",
+        "logo_urls": {
+          "90": "https://hhcdn.ru/employer-logo/6001325.jpeg",
+          "240": "https://hhcdn.ru/employer-logo/6001326.jpeg",
+          "original": "https://hhcdn.ru/employer-logo-original/1095176.jpg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1056",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Владение MS Office. Общее представление об инструментах закупки и аналитики трафика (опыт в баинге – преимущество). Готовность к работе с большими...",
+        "responsibility": "Коммуникация с клиентами на всех стадиях работы рекламных кампаний. Отслеживание работы всех рекламных кампаний клиентов. Планирование рекламных кампаний, помощь в..."
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "70",
+          "name": "Менеджер по продажам, менеджер по работе с клиентами"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    },
+    {
+      "id": "84016328",
+      "premium": true,
+      "name": "Junior Project Manager",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": {
+        "from": 40000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": {
+        "city": "Москва",
+        "street": "улица Василисы Кожиной",
+        "building": "1",
+        "lat": 55.737527,
+        "lng": 37.505166,
+        "description": null,
+        "raw": "Москва, улица Василисы Кожиной, 1",
+        "metro": null,
+        "metro_stations": [],
+        "id": "12038182"
+      },
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-08-03T16:29:55+0300",
+      "created_at": "2023-08-03T16:29:55+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=84016328",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/84016328?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/84016328",
+      "relations": [],
+      "employer": {
+        "id": "2848589",
+        "name": "Физика Сети",
+        "url": "https://api.hh.ru/employers/2848589",
+        "alternate_url": "https://hh.ru/employer/2848589",
+        "logo_urls": {
+          "original": "https://hhcdn.ru/employer-logo-original/777173.png",
+          "240": "https://hhcdn.ru/employer-logo/3549584.png",
+          "90": "https://hhcdn.ru/employer-logo/3549583.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2848589",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Ты педантичен и любишь, когда все находится на своих местах. Знаешь, как работать в MS Office. У тебя есть понимание...",
+        "responsibility": "Участвовать в управлении сетевыми, телекоммуникационными, инженерными проектами. Планировать и контролировать сроки и затраты проекта. Организовывать выполнение проекта. Управлять изменениями в..."
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "107",
+          "name": "Руководитель проектов"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    },
+    {
+      "id": "83953782",
+      "premium": true,
+      "name": "Junior/Junior+ Golang Разработчик (Junior/Junior+ Go Backend Developer)",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": {
+        "from": null,
+        "to": 100000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": {
+        "city": "Москва",
+        "street": "Николоямская улица",
+        "building": "28/60",
+        "lat": 55.746927,
+        "lng": 37.654727,
+        "description": null,
+        "raw": "Москва, Николоямская улица, 28/60",
+        "metro": {
+          "station_name": "Таганская",
+          "line_name": "Кольцевая",
+          "station_id": "5.76",
+          "line_id": "5",
+          "lat": 55.742396,
+          "lng": 37.653334
+        },
+        "metro_stations": [
+          {
+            "station_name": "Таганская",
+            "line_name": "Кольцевая",
+            "station_id": "5.76",
+            "line_id": "5",
+            "lat": 55.742396,
+            "lng": 37.653334
+          }
+        ],
+        "id": "878076"
+      },
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-08-02T14:05:12+0300",
+      "created_at": "2023-08-02T14:05:12+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=83953782",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/83953782?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/83953782",
+      "relations": [],
+      "employer": {
+        "id": "999442",
+        "name": "amoCRM",
+        "url": "https://api.hh.ru/employers/999442",
+        "alternate_url": "https://hh.ru/employer/999442",
+        "logo_urls": {
+          "original": "https://hhcdn.ru/employer-logo-original/1034062.png",
+          "240": "https://hhcdn.ru/employer-logo/5757009.png",
+          "90": "https://hhcdn.ru/employer-logo/5757008.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=999442",
+        "accredited_it_employer": true,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Любишь Golang и умеешь на нём работать. Владеешь Git. Имеешь коммерческий опыт на Go или опыт написания своих проектов. ",
+        "responsibility": "Проектировать и реализовывать новые фичи. Дорабатывать, поддерживать и оптимизировать уже существующий функционал. Участвовать в развитии продукта: от обсуждения задач до..."
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "96",
+          "name": "Программист, разработчик"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    },
+    {
+      "id": "83345069",
+      "premium": false,
+      "name": "Младший диджитал менеджер / Junior Digital Manager",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": null,
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": {
+        "city": "Москва",
+        "street": "Нижняя Красносельская улица",
+        "building": "35с9",
+        "lat": 55.776137,
+        "lng": 37.673987,
+        "description": null,
+        "raw": "Москва, Нижняя Красносельская улица, 35с9",
+        "metro": null,
+        "metro_stations": [],
+        "id": "2963808"
+      },
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-08-08T14:46:44+0300",
+      "created_at": "2023-08-08T14:46:44+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=83345069",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/83345069?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/83345069",
+      "relations": [],
+      "employer": {
+        "id": "23832",
+        "name": "Проммикс",
+        "url": "https://api.hh.ru/employers/23832",
+        "alternate_url": "https://hh.ru/employer/23832",
+        "logo_urls": {
+          "240": "https://hhcdn.ru/employer-logo/387381.jpeg",
+          "original": "https://hhcdn.ru/employer-logo-original/227102.jpg",
+          "90": "https://hhcdn.ru/employer-logo/314524.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=23832",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Образование: высшее. Опыт работы на позиции <highlighttext>Junior</highlighttext> Digital Manager/Digital assistant от 1 года. Владение ПК: продвинутый пользователь (Excel, Word...",
+        "responsibility": "Сбор информации из открытых источников и индустриальных баз, формирование отчетов. Внешние коммуникации (SMM, сайт компании, маркетплейсы). Внутренние коммуникации (подготовка материалов..."
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "68",
+          "name": "Менеджер по маркетингу, интернет-маркетолог"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    }
+  ],
+  "found": 950,
+  "pages": 190,
+  "per_page": 5,
+  "page": 0,
+  "clusters": null,
+  "arguments": null,
+  "alternate_url": "https://hh.ru/search/vacancy?area=1&employment=full&enable_snippets=true&experience=between1And3&items_on_page=5&salary=30000&schedule=fullDay&search_field=name&text=%22Junior%22"
+}

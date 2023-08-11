@@ -1,0 +1,381 @@
+{
+  "items": [
+    {
+      "id": "83813907",
+      "premium": false,
+      "name": "Разработчик React Junior",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": null,
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": {
+        "city": null,
+        "street": null,
+        "building": null,
+        "lat": 0.0,
+        "lng": 0.0,
+        "description": null,
+        "raw": "м. Нагатинская",
+        "metro": null,
+        "metro_stations": [],
+        "id": "179983"
+      },
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-07-21T14:06:58+0300",
+      "created_at": "2023-07-21T14:06:58+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=83813907",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/83813907?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/83813907",
+      "relations": [],
+      "employer": {
+        "id": "650939",
+        "name": "Интерпроком,ООО",
+        "url": "https://api.hh.ru/employers/650939",
+        "alternate_url": "https://hh.ru/employer/650939",
+        "logo_urls": {
+          "90": "https://hhcdn.ru/employer-logo/379996.jpeg",
+          "original": "https://hhcdn.ru/employer-logo-original/157882.jpg",
+          "240": "https://hhcdn.ru/employer-logo/452853.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=650939",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Ожидания по опыту: Высшее образование. Опыт программирования на языке JavaScript (Node.js, React) от 1 года. Знание SQL. Опыт использования инструментов...",
+        "responsibility": null
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "96",
+          "name": "Программист, разработчик"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    },
+    {
+      "id": "84853609",
+      "premium": false,
+      "name": "Junior Python Developer",
+      "department": {
+        "id": "2367681-2367681-dev",
+        "name": "BI.ZONE Направление Разработка"
+      },
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": null,
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-08-09T17:53:49+0300",
+      "created_at": "2023-08-09T17:53:49+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=84853609",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/84853609?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/84853609",
+      "relations": [],
+      "employer": {
+        "id": "2367681",
+        "name": "BI.ZONE",
+        "url": "https://api.hh.ru/employers/2367681",
+        "alternate_url": "https://hh.ru/employer/2367681",
+        "logo_urls": {
+          "original": "https://hhcdn.ru/employer-logo-original/953226.png",
+          "240": "https://hhcdn.ru/employer-logo/4253437.png",
+          "90": "https://hhcdn.ru/employer-logo/4253436.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2367681",
+        "accredited_it_employer": true,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Умение писать на Python (>3). Знание django/drf. Умение работать с git или другой системой контроля версий. Умение написать Dockerfile...",
+        "responsibility": "Принимать участие в разработке нескольких продуктов в области кибер-безопасности. Участвовать в проектировании новых возможностей наших платформ. Современная техника. "
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "96",
+          "name": "Программист, разработчик"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    },
+    {
+      "id": "84731678",
+      "premium": false,
+      "name": "Java-разработчик (junior)",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": null,
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-08-08T12:56:45+0300",
+      "created_at": "2023-08-08T12:56:45+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=84731678",
+      "insider_interview": {
+        "id": "29998",
+        "url": "https://hh.ru/interview/29998?employerId=2733062"
+      },
+      "url": "https://api.hh.ru/vacancies/84731678?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/84731678",
+      "relations": [],
+      "employer": {
+        "id": "2733062",
+        "name": "Лига Цифровой Экономики",
+        "url": "https://api.hh.ru/employers/2733062",
+        "alternate_url": "https://hh.ru/employer/2733062",
+        "logo_urls": {
+          "original": "https://hhcdn.ru/employer-logo-original/948220.png",
+          "240": "https://hhcdn.ru/employer-logo/4233417.png",
+          "90": "https://hhcdn.ru/employer-logo/4233416.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2733062",
+        "accredited_it_employer": true,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Опыт от 0,5 лет. Базовые знания Java 11+ (core). Опыт работы со Spring Framework. Знание средств коллективной разработки...",
+        "responsibility": "Реализация микросервисов. Автоматизация процессов с использованием Camunda. Написание unit-тестов. Оценка трудоемкости по бэклогу. Взаимодействие с аналитиками. Участие в оптимизации..."
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "96",
+          "name": "Программист, разработчик"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    },
+    {
+      "id": "84853402",
+      "premium": false,
+      "name": "Junior .NET разработчик",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": null,
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-08-09T17:49:14+0300",
+      "created_at": "2023-08-09T17:49:14+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=84853402",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/84853402?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/84853402",
+      "relations": [],
+      "employer": {
+        "id": "3919",
+        "name": "Navicon",
+        "url": "https://api.hh.ru/employers/3919",
+        "alternate_url": "https://hh.ru/employer/3919",
+        "logo_urls": {
+          "original": "https://hhcdn.ru/employer-logo-original/634014.jpg",
+          "90": "https://hhcdn.ru/employer-logo/2977208.jpeg",
+          "240": "https://hhcdn.ru/employer-logo/2977209.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3919",
+        "accredited_it_employer": true,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Опыт работы в роли разработчика .NET от полугода. Знание платформы .NET и языка C#. Будет плюсом опыт работы с Angular.",
+        "responsibility": "Участие в разработке MDM - системы (собственная разработка компании). Проведение Code Review. Участие в оценке трудоемкости работ. Проведение первичного тестирования результатов..."
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "96",
+          "name": "Программист, разработчик"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    },
+    {
+      "id": "84575170",
+      "premium": false,
+      "name": "Junior frontend (React) разработчик [МТС Партнер]",
+      "department": {
+        "id": "mts-3776-it",
+        "name": "«МТС», Digital"
+      },
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": null,
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-08-07T12:06:20+0300",
+      "created_at": "2023-08-07T12:06:20+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=84575170",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/84575170?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/84575170",
+      "relations": [],
+      "employer": {
+        "id": "3776",
+        "name": "МТС",
+        "url": "https://api.hh.ru/employers/3776",
+        "alternate_url": "https://hh.ru/employer/3776",
+        "logo_urls": {
+          "original": "https://hhcdn.ru/employer-logo-original/1077164.png",
+          "240": "https://hhcdn.ru/employer-logo/5929286.png",
+          "90": "https://hhcdn.ru/employer-logo/5929285.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3776",
+        "accredited_it_employer": true,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Опыт работы JavaScript от 1 года. Опыт работы с React и MobX. Знания TypeScript. Опыт работы с формами - Formik (в...",
+        "responsibility": "Реализовывать компоненты web-интерфейса пользователя и логики взаимодействия. Взаимодействовать с другими командами: backend-разработчиками; тестировщиками, аналитиками. Заниматься исправлением дефектов."
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "96",
+          "name": "Программист, разработчик"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    }
+  ],
+  "found": 952,
+  "pages": 191,
+  "per_page": 5,
+  "page": 0,
+  "clusters": null,
+  "arguments": null,
+  "alternate_url": "https://hh.ru/search/vacancy?area=1&employment=full&enable_snippets=true&experience=between1And3&items_on_page=5&salary=30000&schedule=fullDay&search_field=name&text=%22Junior%22"
+}

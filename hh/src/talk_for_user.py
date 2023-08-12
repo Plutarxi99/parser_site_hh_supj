@@ -142,12 +142,12 @@ def talk_to_user():
             else:
                 break
 
-        while True:
-            limit_count_page_input = int(input('Напиши сколько ваканский надо вывести\n'))
-            if not 0 < limit_count_page_input < 100:
-                continue
-            else:
-                break
+        # while True:
+        #     limit_count_page_input = int(input('Напиши сколько ваканский надо вывести\n'))
+        #     if not 0 < limit_count_page_input < 100:
+        #         continue
+        #     else:
+        #         break
 
         dict_answer = {
             'vac': name_vacation_input,
@@ -157,8 +157,8 @@ def talk_to_user():
             'exp': true_experience[experience_part_input],
             'field': true_search_fields_part[search_fields_part_input],
             'salary': choise_salary_input,
-            'per_page': limit_count_page_input,
-            'page': limit_count_page_input,
+            'per_page': 10,
+            'page': 0,
             'magic': 'false'
         }
         return dict_answer

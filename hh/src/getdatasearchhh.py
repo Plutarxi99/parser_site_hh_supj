@@ -18,7 +18,7 @@ class GetDataSearchHH:
                  schedule_part=None,
                  employment_part=None,
                  experience_part=None,
-                 page_part=None,
+                 page_part=0,
                  ):
 
         super().__init__()
@@ -123,11 +123,11 @@ class GetDataSearchHH:
         else:
             raise Exception('''Зарплата не такая должна быть''')
 
-        # Ограничение вывода ваканский
+        # Сколько ваканский на странице
         self.limit_count_page = limit_count_page
         self.per_page = f'per_page={self.limit_count_page}'
 
-        #
+        # Номер страницы
         self.page_part = page_part
         self.page = f'page={self.page_part}'
 

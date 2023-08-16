@@ -1,43 +1,41 @@
+import json
 import requests
-from exception import GetDataSearchHHSchedule, GetDataSearchHHEmployment, GetDataSearchHHExperience
+from abstract.src.exception import *
+from abstract.src.getdatasearch import *
+import hh.file_json_for_work_programm
 
 
-class GetDataSearchHH:
-    true_schedule = ['fullDay', 'shift', 'flexible', 'remote', 'flyInFlyOut']
-    true_employment = ['full', 'part', 'project', 'volunteer', 'probation']
-    true_experience = ['noExperience', 'between1And3', 'between3And6', 'moreThan6']
+class GetDataSearchHH(GetDataSearch):
+    """
+    Класс для работы ссылкой, для работы с файлом json
+    """
+    # Ссылка на необработанный json файл
+    data_off_filter = hh.file_json_for_work_programm.file_path_vac_for_filt_hh
+    # Ссылка на обработанный json файл
+    data_on_filter = hh.file_json_for_work_programm.file_path_print_for_user_hh
+
     true_search_fields = ['name', 'company_name', 'description']
 
     def __init__(self,
                  name_vacation: str,
-                 area_part=113,
-                 limit_count_page=10,
-                 no_magic_part='false',
-                 choise_salary=None,
-                 search_fields_part=None,
-                 schedule_part=None,
-                 employment_part=None,
-                 experience_part=None,
-                 page_part=0,
+                 area_part: object = None,
+                 limit_count_page: object = 20,
+                 no_magic_part: object = 'false',
+                 choise_salary: object = None,
+                 search_fields_part: object = None,
+                 schedule_part: object = None,
+                 employment_part: object = None,
+                 experience_part: object = None,
+                 page_part: object = 0,
                  ):
 
-        super().__init__()
+        self.file_json = None
+
         # Название ваканскии при инициализации класса
-        self.no_magic_part = None
-        self.schedule_part = None
         self.name_vacation = name_vacation
-        self.text = f'text="{self.name_vacation}"'
 
         # Указываем регион выбора профессий
-        # self.area_part = area_part
-        # self.area = f"area={self.area_part}"
-        if isinstance(area_part, int):
-            self.area_part = area_part
-            self.area = f'area={self.area_part}'
-        elif area_part == '' or self.area_part is None:
-            self.area = f''
-        else:
-            raise Exception('Число надо')
+        self.area_part = area_part
 
         # График работы
         """
@@ -47,14 +45,7 @@ class GetDataSearchHH:
         remote - Удаленная работа
         flyInFlyOut - Вахтовый метод
         """
-        # Делаем блок исключений для корректного отображения данных
-        if schedule_part in self.true_schedule:
-            self.schedule_part = schedule_part
-            self.schedule = f'schedule={self.schedule_part}'
-        elif schedule_part == '' or self.schedule_part is None:
-            self.schedule = f''
-        else:
-            raise GetDataSearchHHSchedule
+        self.schedule_part = schedule_part
 
         # Тип занятости
         """
@@ -64,16 +55,7 @@ class GetDataSearchHH:
         volunteer - Волонтерство
         probation - Стажировка
         """
-        # Делаем блок исключений для корректного отображения данных
-        if employment_part in self.true_employment:
-            self.employment_part = employment_part
-            self.employment = f'employment={self.employment_part}'
-        elif employment_part == '' or employment_part is None:
-            self.employment = f''
-        else:
-            raise GetDataSearchHHEmployment
-        # self.employment_part = employment_part
-        # self.employment = f'employment={self.employment_part}'
+        self.employment_part = employment_part
 
         # Опыт работы.
         """
@@ -82,15 +64,7 @@ class GetDataSearchHH:
         between3And6 - От 3 до 6 лет
         moreThan6 - Более 6 лет
         """
-        if experience_part in self.true_experience:
-            self.experience_part = experience_part
-            self.experience = f'experience={self.experience_part}'
-        elif experience_part == '' or experience_part is None:
-            self.experience = f''
-        else:
-            raise GetDataSearchHHExperience
-        # self.experience_part = experience_part
-        # self.experience = f"experience={self.experience_part}"
+        self.experience_part = experience_part
 
         # Область поиска где написана искомая ваканския
         """
@@ -98,38 +72,23 @@ class GetDataSearchHH:
         company_name - в названии компании
         description - в описании вакансии
         """
-        # self.search_fields_part = search_fields_part
-        # self.search_fields = f"search_field={self.search_fields_part}"
         if search_fields_part in self.true_search_fields:
             self.search_fields_part = search_fields_part
-            self.search_fields = f'search_fields={self.search_fields_part}'
         elif search_fields_part == '' or search_fields_part is None:
-            # self.search_fields = f''
-            self.search_fields = f'search_field=name&search_field=company_name&search_field=description'
+            self.search_fields_part = ('name', 'company_name', 'description')
         else:
             raise Exception('''name - в названии вакансии
                             company_name - в названии компании
                             description - в описании вакансии''')
 
         # Выбор зарплаты
-        # self.choise_salary = choise_salary
-        # self.salary = f'salary={self.choise_salary}'
-
-        if isinstance(choise_salary, int):
-            self.choise_salary = choise_salary
-            self.salary = f'salary={self.choise_salary}'
-        elif choise_salary == '' or choise_salary is None:
-            self.salary = f''
-        else:
-            raise Exception('''Зарплата не такая должна быть''')
+        self.choise_salary = choise_salary
 
         # Сколько ваканский на странице
         self.limit_count_page = limit_count_page
-        self.per_page = f'per_page={self.limit_count_page}'
 
         # Номер страницы
         self.page_part = page_part
-        self.page = f'page={self.page_part}'
 
         """
         Если значение true — автоматическое преобразование вакансий отключено. 
@@ -137,41 +96,134 @@ class GetDataSearchHH:
         будет предпринята попытка изменить текстовый запрос пользователя 
         на набор параметров.
         """
-        if self.no_magic_part == 'true':
-            self.no_magic_part = no_magic_part
-            self.no_magic = f'no_magic={no_magic_part}'
-        else:
-            self.no_magic_part = 'false'
-            self.no_magic = f'no_magic={no_magic_part}'
+        self.no_magic_part = no_magic_part
 
     def get(self):
-        # Получение ссылки для работы
-        URL = (f'https://api.hh.ru/vacancies?'
-               f'&{self.schedule}'
-               f'&{self.employment}'
-               f'&{self.experience}'
-               f'&{self.search_fields}'
-               f'&{self.text}'
-               f'&{self.salary}'
-               f'&{self.area}'
-               f'&{self.per_page}'
-               f'&{self.page}'
-               f'&no_magic=false'
-               f'&only_with_salary=true'  # Показывать вакансии только с указанием зарплаты
-               f'')
-        response = requests.get(URL)
-        data_j = response.json()
-        return data_j
+        """
+        Получение json запроса
+        """
+        url = 'https://api.hh.ru/vacancies?'
+        if self.no_magic_part != 'true':
+            par = {'text': self.name_vacation,
+                   'schedule': self.schedule_part,
+                   'experience': self.experience_part,
+                   'employment': self.employment_part,
+                   'search_fields': self.search_fields_part,
+                   'salary': self.choise_salary,
+                   'area': self.area_part,
+                   'per_page': self.limit_count_page,
+                   'page': self.page_part,
+                   'only_with_salary': 'true'
+                   }
+        else:
+            par = {'text': self.name_vacation,
+                   'per_page': self.limit_count_page,
+                   'page': self.page_part,
+                   'no_magic': 'true',
+                   'only_with_salary': 'true'
+                   }
 
-    # def get_text_magic(self):
-    #     # Получение ссылки для работы
-    #     URL = (f'https://api.hh.ru/vacancies?'
-    #            f'&{self.text}'
-    #            f'&{self.per_page}'
-    #            f'&{self.page}'
-    #            f'&no_magic=false'
-    #            f'&only_with_salary=true'  # Показывать вакансии только с указанием зарплаты
-    #            f'')
-    #     response = requests.get(URL)
-    #     data_j = response.json()
-    #     return data_j
+        response = requests.get(url=url, params=par)
+        if response.status_code == 200:
+            pass
+        else:
+            raise GetDataSearchStatusCode
+        data_j = response.json()
+        self.file_json = data_j
+
+    def write_in_data_on_filter(self):
+        """
+        Используется для записи в файл для пользователя
+        """
+        for x in range(len(self.file_json['items'])):
+            with open(self.data_off_filter, 'r', encoding='UTF-8') as f:
+                content = json.load(f)
+
+                # Название вакансии
+                vac_name = content['items'][x]['name']
+                # Занятость вакансии
+                vac_employment = content['items'][x]['employment']['name']
+                # Требуемый опыт вакансии
+                vac_experience = content['items'][x]['experience']['name']
+                # Зарплата
+                vac_salary_from = content['items'][x]['salary']['from']
+                if vac_salary_from is None:
+                    vac_salary_from = 0
+                else:
+                    vac_salary_from = vac_salary_from
+                # Зарплата
+                vac_salary_to = content['items'][x]['salary']['to']
+                if vac_salary_to is None:
+                    vac_salary_to = 0
+                else:
+                    vac_salary_to = vac_salary_to
+                # Валюта
+                vac_currency = content['items'][x]['salary']['currency']
+                # Ссылка на вакансию
+                vac_url = content['items'][x]['alternate_url']
+                # Что требуется при устройстве на вакансию
+                vac_snippet = content['items'][x]['snippet']["requirement"]
+                # Название компании работадателя
+                vac_work_app_name = content['items'][x]['employer']['name']
+                # Адрес вакансии
+                try:
+                    vac_address = content['items'][x].get('address')['raw']
+                except:
+                    vac_address = content['items'][x].get('address')
+
+                searching_data = {'items': [{
+                    'Название ваканскии': vac_name,
+                    'Тип занятости': vac_employment,
+                    'Опыт работы': vac_experience,
+                    'Зарплата от': vac_salary_from,
+                    'Зарплата до': vac_salary_to,
+                    'Валюта': vac_currency,
+                    'API': 'HeadHunter',
+                    'url': vac_url,
+                    'Требования': vac_snippet,
+                    'Название компании': vac_work_app_name,
+                    'Адрес': vac_address
+                }]}
+                searching_data_app = {'items': {
+                    'Название ваканскии': vac_name,
+                    'Тип занятости': vac_employment,
+                    'Опыт работы': vac_experience,
+                    'Зарплата от': vac_salary_from,
+                    'Зарплата до': vac_salary_to,
+                    'Валюта': vac_currency,
+                    'API': 'HeadHunter',
+                    'url': vac_url,
+                    'Требования': vac_snippet,
+                    'Название компании': vac_work_app_name,
+                    'Адрес': vac_address
+                }}
+
+            with open(self.data_on_filter, 'r+') as f_1:
+                try:
+                    contic = json.load(f_1)
+                    with open(self.data_on_filter, 'r+') as file:
+                        file_data = json.load(file)
+                        # Объединяем всё единый формат
+                        file_data["items"].append(searching_data_app['items'])
+                        # Устанавливаем текущее положение файла со смещением
+                        file.seek(0)
+                        # преобразоваем обратно в json
+                        json.dump(file_data, file, indent=2, ensure_ascii=False)
+                except:
+                    with open(self.data_on_filter, "w") as file:
+                        # Записываем данные в файл JSON
+                        json.dump(searching_data, file, indent=2, ensure_ascii=False)
+
+    def save_in_file_json(self):
+        """
+        Сохраняет результат поиска в json файл "vacation_for_filter_hh.json"
+        """
+        with open(self.data_off_filter, "w") as file:
+            # Записываем данные в файл JSON
+            json.dump(self.file_json, file, indent=2, ensure_ascii=False)
+
+    def clear_file_json(self):
+        """
+        Очищает файл json полученный путем фильтрации
+        """
+        open(self.data_on_filter, "w").close()

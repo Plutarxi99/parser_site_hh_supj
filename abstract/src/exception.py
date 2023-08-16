@@ -1,4 +1,4 @@
-class GetDataSearchHHError(Exception):
+class GetDataSearchError(Exception):
     def __init__(self):
         self.message = 'Что-то не так'
 
@@ -6,12 +6,18 @@ class GetDataSearchHHError(Exception):
         return self.message
 
 
-class GetDataSearchHHSchedule(GetDataSearchHHError):
+class GetDataSearchStatusCode(GetDataSearchError):
+    def __init__(self):
+        self.message = ("Запрос не может быть выполнен\n"
+                        "Какой-то из атрибутов поиска задан неверно")
+
+
+class GetDataSearchHHSchedule(GetDataSearchError):
     true_schedule = {'fullDay': 'Полный день',
-                       'shift': 'Сменный график',
-                       'flexible': 'Гибкий график',
-                       'remote': 'Удаленная работа',
-                       'flyInFlyOut': 'Вахтовый метод'}
+                     'shift': 'Сменный график',
+                     'flexible': 'Гибкий график',
+                     'remote': 'Удаленная работа',
+                     'flyInFlyOut': 'Вахтовый метод'}
     """
     Ислключение на график работы (schedule)
     Проверка на верное вхождение поиска
@@ -31,7 +37,7 @@ class GetDataSearchHHSchedule(GetDataSearchHHError):
                         f'{self.true_schedule}')
 
 
-class GetDataSearchHHEmployment(GetDataSearchHHError):
+class GetDataSearchHHEmployment(GetDataSearchError):
     true_employment = {'full': 'Полная занятость',
                        'part': 'Частичная занятость',
                        'project': 'Проектная работа',
@@ -56,7 +62,7 @@ class GetDataSearchHHEmployment(GetDataSearchHHError):
                         f'{self.true_employment}')
 
 
-class GetDataSearchHHExperience(GetDataSearchHHError):
+class GetDataSearchHHExperience(GetDataSearchError):
     true_experience = {'noExperience': 'Нет опыта',
                        'between1And3': 'От 1 года до 3 лет',
                        'between3And6': 'От 3 до 6 лет',

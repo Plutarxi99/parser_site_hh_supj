@@ -50,7 +50,8 @@
       "id": "direct",
       "name": "доступно только по прямой ссылке"
     }
-  ], "": [
+  ],
+  "vacancy_search_order": [
     {
       "id": "publication_time",
       "name": "по дате"
@@ -814,7 +815,7 @@
       "abbr": "₼",
       "name": "Манаты",
       "default": false,
-      "rate": 0.018686,
+      "rate": 0.01731,
       "in_use": false
     },
     {
@@ -822,7 +823,7 @@
       "abbr": "Br",
       "name": "Белорусские рубли",
       "default": false,
-      "rate": 0.033259,
+      "rate": 0.032618,
       "in_use": false
     },
     {
@@ -830,7 +831,7 @@
       "abbr": "€",
       "name": "Евро",
       "default": false,
-      "rate": 0.010004,
+      "rate": 0.009262,
       "in_use": true
     },
     {
@@ -838,7 +839,7 @@
       "abbr": "₾",
       "name": "Грузинский лари",
       "default": false,
-      "rate": 0.029118,
+      "rate": 0.026796,
       "in_use": false
     },
     {
@@ -846,7 +847,7 @@
       "abbr": "сом",
       "name": "Кыргызский сом",
       "default": false,
-      "rate": 0.963298,
+      "rate": 0.896274,
       "in_use": false
     },
     {
@@ -854,7 +855,7 @@
       "abbr": "₸",
       "name": "Тенге",
       "default": false,
-      "rate": 4.888207,
+      "rate": 4.531571,
       "in_use": false
     },
     {
@@ -870,7 +871,7 @@
       "abbr": "₴",
       "name": "Гривны",
       "default": false,
-      "rate": 0.405948,
+      "rate": 0.376061,
       "in_use": false
     },
     {
@@ -878,7 +879,7 @@
       "abbr": "$",
       "name": "Доллары",
       "default": false,
-      "rate": 0.010992,
+      "rate": 0.010183,
       "in_use": true
     },
     {
@@ -886,7 +887,7 @@
       "abbr": "so'm",
       "name": "Узбекский сум",
       "default": false,
-      "rate": 127.504507,
+      "rate": 122.955405,
       "in_use": false
     }
   ],

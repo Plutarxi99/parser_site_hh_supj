@@ -1,0 +1,852 @@
+{
+  "items": [
+    {
+      "id": "84649920",
+      "premium": false,
+      "name": "Специалист по учебно-методической работе",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": {
+        "from": null,
+        "to": 70000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": {
+        "city": "Москва",
+        "street": "Покровский бульвар",
+        "building": "11",
+        "lat": 55.754471,
+        "lng": 37.648573,
+        "description": null,
+        "raw": "Москва, Покровский бульвар, 11",
+        "metro": {
+          "station_name": "Курская",
+          "line_name": "Арбатско-Покровская",
+          "station_id": "3.70",
+          "line_id": "3",
+          "lat": 55.758564,
+          "lng": 37.659039
+        },
+        "metro_stations": [
+          {
+            "station_name": "Курская",
+            "line_name": "Арбатско-Покровская",
+            "station_id": "3.70",
+            "line_id": "3",
+            "lat": 55.758564,
+            "lng": 37.659039
+          }
+        ],
+        "id": "25068"
+      },
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-08-07T12:01:23+0300",
+      "created_at": "2023-08-07T12:01:23+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=84649920",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/84649920?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/84649920",
+      "relations": [],
+      "employer": {
+        "id": "80981",
+        "name": "Национальный исследовательский университет Высшая школа экономики",
+        "url": "https://api.hh.ru/employers/80981",
+        "alternate_url": "https://hh.ru/employer/80981",
+        "logo_urls": {
+          "original": "https://hhcdn.ru/employer-logo-original/1131044.png",
+          "90": "https://hhcdn.ru/employer-logo/6144765.png",
+          "240": "https://hhcdn.ru/employer-logo/6144766.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=80981",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Ранее уже работали в образовании или заинтересованы в работе в академической среде. Уверенно работаете в программах Microsoft Office (или аналогах...",
+        "responsibility": "Поддержку студентов в учебном процессе в роли куратора курса от учебного офиса. Предполагаются систематические коммуникации со студентами по разным каналам..."
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "8",
+          "name": "Администратор"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    },
+    {
+      "id": "55565596",
+      "premium": false,
+      "name": "Системный администратор / Инженер технической поддержки (HelpDesk)",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "3",
+        "name": "Екатеринбург",
+        "url": "https://api.hh.ru/areas/3"
+      },
+      "salary": {
+        "from": 69000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": {
+        "city": "Берёзовский",
+        "street": "Кольцевая улица",
+        "building": "4/2",
+        "lat": 56.897055,
+        "lng": 60.773185,
+        "description": null,
+        "raw": "Берёзовский, Кольцевая улица, 4/2",
+        "metro": null,
+        "metro_stations": [],
+        "id": "7612757"
+      },
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-08-14T09:29:48+0300",
+      "created_at": "2023-08-14T09:29:48+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=55565596",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/55565596?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/55565596",
+      "relations": [],
+      "employer": {
+        "id": "4816",
+        "name": "Т.Б.М.",
+        "url": "https://api.hh.ru/employers/4816",
+        "alternate_url": "https://hh.ru/employer/4816",
+        "logo_urls": {
+          "90": "https://hhcdn.ru/employer-logo/484885.jpeg",
+          "240": "https://hhcdn.ru/employer-logo/484886.jpeg",
+          "original": "https://hhcdn.ru/employer-logo-original/231321.jpg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4816",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Опыт работы на предприятии с количеством ПК более 100. Знание: стека протоколов TCP/IP, систем печати, сетевого оборудования для печати...",
+        "responsibility": "Поддержание всего жизненного цикла IT в офисе и в удаленных подразделениях. Поддержка почтового сервера Exchange. Поддержка сетевой инфраструктуры офиса. "
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "121",
+          "name": "Специалист технической поддержки"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    },
+    {
+      "id": "84446972",
+      "premium": false,
+      "name": "Менеджер по работе с выпускниками",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": {
+        "from": 70000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": {
+        "city": "Москва",
+        "street": "Покровский бульвар",
+        "building": "11",
+        "lat": 55.754471,
+        "lng": 37.648573,
+        "description": null,
+        "raw": "Москва, Покровский бульвар, 11",
+        "metro": {
+          "station_name": "Курская",
+          "line_name": "Арбатско-Покровская",
+          "station_id": "3.70",
+          "line_id": "3",
+          "lat": 55.758564,
+          "lng": 37.659039
+        },
+        "metro_stations": [
+          {
+            "station_name": "Курская",
+            "line_name": "Арбатско-Покровская",
+            "station_id": "3.70",
+            "line_id": "3",
+            "lat": 55.758564,
+            "lng": 37.659039
+          }
+        ],
+        "id": "25068"
+      },
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-08-02T17:16:19+0300",
+      "created_at": "2023-08-02T17:16:19+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=84446972",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/84446972?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/84446972",
+      "relations": [],
+      "employer": {
+        "id": "80981",
+        "name": "Национальный исследовательский университет Высшая школа экономики",
+        "url": "https://api.hh.ru/employers/80981",
+        "alternate_url": "https://hh.ru/employer/80981",
+        "logo_urls": {
+          "original": "https://hhcdn.ru/employer-logo-original/1131044.png",
+          "90": "https://hhcdn.ru/employer-logo/6144765.png",
+          "240": "https://hhcdn.ru/employer-logo/6144766.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=80981",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Имеете опыт организации мероприятий. Умеете работать в системах электронного документооборота. Имеете развитые коммуникативные навыки. Активны, готовы быстро обучаться и работать...",
+        "responsibility": "Организация внеучебных мероприятий для выпускников факультета. Вовлечение выпускников в факультетские проекты. Помощь в организации участия факультета в общевышкинских мероприятиях (День..."
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "40",
+          "name": "Другое"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    },
+    {
+      "id": "84559105",
+      "premium": false,
+      "name": "Помощник инженера ПТО/Стажер",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": {
+        "from": 45000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-08-16T14:04:50+0300",
+      "created_at": "2023-08-16T14:04:50+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=84559105",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/84559105?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/84559105",
+      "relations": [],
+      "employer": {
+        "id": "3112566",
+        "name": "Создание",
+        "url": "https://api.hh.ru/employers/3112566",
+        "alternate_url": "https://hh.ru/employer/3112566",
+        "logo_urls": {
+          "original": "https://hhcdn.ru/employer-logo-original/911736.png",
+          "240": "https://hhcdn.ru/employer-logo/4087632.png",
+          "90": "https://hhcdn.ru/employer-logo/4087631.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3112566",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Готовность обучаться!",
+        "responsibility": "Взаимодействие с сотрудниками компании в области подготовки документов. Печать и комплектация документов. Ведение табличной отчетности. Архивация документов."
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "40",
+          "name": "Другое"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "probation",
+        "name": "Стажировка"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    },
+    {
+      "id": "84061728",
+      "premium": false,
+      "name": "Системный инженер / системный администратор",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "4",
+        "name": "Новосибирск",
+        "url": "https://api.hh.ru/areas/4"
+      },
+      "salary": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-07-26T13:44:32+0300",
+      "created_at": "2023-07-26T13:44:32+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=84061728",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/84061728?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/84061728",
+      "relations": [],
+      "employer": {
+        "id": "2608066",
+        "name": "Кью-центр",
+        "url": "https://api.hh.ru/employers/2608066",
+        "alternate_url": "https://hh.ru/employer/2608066",
+        "logo_urls": {
+          "90": "https://hhcdn.ru/employer-logo/2829759.jpeg",
+          "240": "https://hhcdn.ru/employer-logo/2829760.jpeg",
+          "original": "https://hhcdn.ru/employer-logo-original/597126.jpg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2608066",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Высшее техническое образование. - Английский язык - уровень чтения и понимания технической документации. - Готовность к постоянному обучению. - Готовность к командировкам. - ",
+        "responsibility": "Поддержка сетевой, серверной инфраструктуры Заказчиков и самой компании, решение возникающих проблем (согласно срокам SLA). - Обеспечение работоспособности сервисов Заказчика и самой..."
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "114",
+          "name": "Системный инженер"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    },
+    {
+      "id": "83774410",
+      "premium": false,
+      "name": "Инженер-конструктор",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": {
+        "from": 120000,
+        "to": 200000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-08-07T11:03:48+0300",
+      "created_at": "2023-08-07T11:03:48+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=83774410",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/83774410?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/83774410",
+      "relations": [],
+      "employer": {
+        "id": "24241",
+        "name": "Группа компаний Стильные кухни",
+        "url": "https://api.hh.ru/employers/24241",
+        "alternate_url": "https://hh.ru/employer/24241",
+        "logo_urls": {
+          "original": "https://hhcdn.ru/employer-logo-original/564743.jpg",
+          "90": "https://hhcdn.ru/employer-logo/2700445.jpeg",
+          "240": "https://hhcdn.ru/employer-logo/2700446.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=24241",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Высшее/средне-профессиональное (техническое) образование. Опыт работы от 2 лет в аналогичной должности. Знание программ для проектирования Базис мебельщик, AutoCad. ",
+        "responsibility": "Проверка и корректировка проекта в программе 3CAD. Контроль качества всех передаваемых проектов на производство. Коммуникация с Фабрикой, дизайнером, замерщиком..."
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "48",
+          "name": "Инженер-конструктор, инженер-проектировщик"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    },
+    {
+      "id": "83781969",
+      "premium": false,
+      "name": "Главный инженер по эксплуатации зданий",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": {
+        "from": 145000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "anonymous",
+        "name": "Анонимная"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-07-20T20:06:32+0300",
+      "created_at": "2023-07-20T20:06:32+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=83781969",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/83781969?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/83781969",
+      "relations": [],
+      "employer": {
+        "name": "Крупная федеральная торговая сеть",
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Высшее инженерное образование. Специализация в сфере ОВИК. Знание норм и правил эксплуатации зданий, систем, оборудования. Знание программ Ms Project, Autocad...",
+        "responsibility": "Организация и контроль содержания зданий и сооружений в периметре ответственности: обеспечение комфорта и безопасности пребывания клиентов и сотрудников. "
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "30",
+          "name": "Главный инженер проекта"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    },
+    {
+      "id": "84895796",
+      "premium": false,
+      "name": "Помощник кадастрового инженера / Техник-инвентаризатор",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": {
+        "from": 45000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": {
+        "city": "Москва",
+        "street": "улица Ленинская Слобода",
+        "building": "19",
+        "lat": 55.708354,
+        "lng": 37.652705,
+        "description": null,
+        "raw": "Москва, улица Ленинская Слобода, 19",
+        "metro": {
+          "station_name": "Автозаводская",
+          "line_name": "Замоскворецкая",
+          "station_id": "2.2",
+          "line_id": "2",
+          "lat": 55.706634,
+          "lng": 37.657008
+        },
+        "metro_stations": [
+          {
+            "station_name": "Автозаводская",
+            "line_name": "Замоскворецкая",
+            "station_id": "2.2",
+            "line_id": "2",
+            "lat": 55.706634,
+            "lng": 37.657008
+          }
+        ],
+        "id": "834061"
+      },
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-08-10T14:22:54+0300",
+      "created_at": "2023-08-10T14:22:54+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=84895796",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/84895796?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/84895796",
+      "relations": [],
+      "employer": {
+        "id": "1410886",
+        "name": "Оллвин Груп",
+        "url": "https://api.hh.ru/employers/1410886",
+        "alternate_url": "https://hh.ru/employer/1410886",
+        "logo_urls": null,
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1410886",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Профильное образование. Опыт работы в сфере кадастровой деятельности не менее 1 года. Готовы рассматривать выпускников профильных вузов с минимальным опытом...",
+        "responsibility": "Подача заявлений и иных документов в Росреестр, МФЦ, администрацию, ДГИ г. <highlighttext>Москвы</highlighttext>, ТУ Росимущества. 8. Выполнение поручений кадастрового <highlighttext>инженера</highlighttext> (сканирование..."
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "27",
+          "name": "Геодезист"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    },
+    {
+      "id": "84417799",
+      "premium": false,
+      "name": "Сборщик 3D-принтеров",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": true,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": {
+        "from": 45000,
+        "to": 65000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": {
+        "city": "Москва",
+        "street": "Павловская улица",
+        "building": "27с7",
+        "lat": 55.711757,
+        "lng": 37.627858,
+        "description": null,
+        "raw": "Москва, Павловская улица, 27с7",
+        "metro": null,
+        "metro_stations": [],
+        "id": "11671369"
+      },
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-08-14T11:37:19+0300",
+      "created_at": "2023-08-14T11:37:19+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=84417799",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/84417799?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/84417799",
+      "relations": [],
+      "employer": {
+        "id": "2101399",
+        "name": "3DiY",
+        "url": "https://api.hh.ru/employers/2101399",
+        "alternate_url": "https://hh.ru/employer/2101399",
+        "logo_urls": {
+          "90": "https://hhcdn.ru/employer-logo/4261060.png",
+          "240": "https://hhcdn.ru/employer-logo/4261061.png",
+          "original": "https://hhcdn.ru/employer-logo-original/955133.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2101399",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Технический склад ума. Умение работать руками. Пунктуальность, аккуратность. Самостоятельность. Умение быстро и качественно справляющегося с задачами. Приветствуется кандидат со знаниями...",
+        "responsibility": "Сборка 3D-принтеров. Печать на 3D принтерах. Ремонт 3D-принтеров. Комплектация DIY-наборов 3D-принтеров. "
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "40",
+          "name": "Другое"
+        }
+      ],
+      "accept_incomplete_resumes": true,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    },
+    {
+      "id": "83600557",
+      "premium": false,
+      "name": "Заместитель главного бухгалтера / Ведущий бухгалтер",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": {
+        "from": 90000,
+        "to": 145000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-08-14T10:11:21+0300",
+      "created_at": "2023-08-14T10:11:21+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=83600557",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/83600557?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/83600557",
+      "relations": [],
+      "employer": {
+        "id": "5850133",
+        "name": "InTech Inc.",
+        "url": "https://api.hh.ru/employers/5850133",
+        "alternate_url": "https://hh.ru/employer/5850133",
+        "logo_urls": {
+          "90": "https://hhcdn.ru/employer-logo/4267608.png",
+          "240": "https://hhcdn.ru/employer-logo/4267609.png",
+          "original": "https://hhcdn.ru/employer-logo-original/956770.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5850133",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "опыт работы заместителем главного бухгалтера/ведущим бухгалтером от 3-х лет. -среднее/высшее профильное образование. -практическое знание всех участков бухгалтерского...",
+        "responsibility": "ведение бухгалтерского и налогового учета, в соответствии с действующим законодательством в полном объеме. -сверка взаиморасчетов с покупателями и поставщиками. -"
+      },
+      "contacts": null,
+      "schedule": null,
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "18",
+          "name": "Бухгалтер"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+    }
+  ],
+  "found": 29,
+  "pages": 3,
+  "per_page": 10,
+  "page": 0,
+  "clusters": null,
+  "arguments": null,
+  "fixes": null,
+  "suggests": null,
+  "alternate_url": "https://hh.ru/search/vacancy?enable_snippets=true&items_on_page=10&no_magic=true&only_with_salary=true&text=%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0+45000"
+}

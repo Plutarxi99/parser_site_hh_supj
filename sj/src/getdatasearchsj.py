@@ -1,4 +1,5 @@
 import json
+import os
 
 import requests
 from abstract.src.getdatasearch import *
@@ -14,10 +15,9 @@ class GetDataSearchSJ(GetDataSearch):
     data_off_filter = sj.file_json_for_work_programm.file_path_vac_for_filt_sj
     # Ссылка на обработанный json файл
     data_on_filter = sj.file_json_for_work_programm.file_path_print_for_user_sj
-    # KEY_ = 'SJ_SECRET_KEY'
-    # KEY = os.environ.get(KEY_)
-    key = 'v3.r.137748803.7d1255532a6bafc90ce2e3797ecd57ccf308fd2a.fa52ffb58437e94ac7ae4deb39de1ce4fe0f77ec'
-    URL = f'https://api.superjob.ru/2.0/{key}/vacancies/'
+    KEY_ = 'SJ_SECRET_KEY'
+    KEY = os.environ.get(KEY_)
+    URL = f'https://api.superjob.ru/2.0/{KEY}/vacancies/'
 
     def __init__(self,
                  name_vacation: str,

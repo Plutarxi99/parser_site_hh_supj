@@ -1,0 +1,1786 @@
+{
+  "categories": [
+    {
+      "id": "19",
+      "name": "Автомобильный бизнес",
+      "roles": [
+        {
+          "id": "4",
+          "name": "Автомойщик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "5",
+          "name": "Автослесарь, автомеханик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "62",
+          "name": "Мастер-приемщик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "70",
+          "name": "Менеджер по продажам, менеджер по работе с клиентами",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Административный персонал",
+      "roles": [
+        {
+          "id": "8",
+          "name": "Администратор",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "33",
+          "name": "Делопроизводитель, архивариус",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "58",
+          "name": "Курьер",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "76",
+          "name": "Менеджер/руководитель АХО",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "84",
+          "name": "Оператор ПК, оператор базы данных",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "88",
+          "name": "Офис-менеджер",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "93",
+          "name": "Переводчик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "110",
+          "name": "Секретарь, помощник руководителя, ассистент",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Безопасность",
+      "roles": [
+        {
+          "id": "22",
+          "name": "Военнослужащий",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "90",
+          "name": "Охранник",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "95",
+          "name": "Полицейский",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "116",
+          "name": "Специалист по информационной безопасности",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "120",
+          "name": "Специалист службы безопасности",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Высший и средний менеджмент",
+      "roles": [
+        {
+          "id": "26",
+          "name": "Генеральный директор, исполнительный директор (CEO)",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "36",
+          "name": "Директор по информационным технологиям (CIO)",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "37",
+          "name": "Директор по маркетингу и PR (CMO)",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "38",
+          "name": "Директор по персоналу (HRD)",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "166",
+          "name": "Директор юридического департамента (CLO)",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "53",
+          "name": "Коммерческий директор (CCO)",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "80",
+          "name": "Начальник производства",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "87",
+          "name": "Операционный директор (COO)",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "157",
+          "name": "Руководитель отдела аналитики",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "172",
+          "name": "Руководитель отдела логистики",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "170",
+          "name": "Руководитель отдела маркетинга и рекламы",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "171",
+          "name": "Руководитель отдела персонала",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "161",
+          "name": "Руководитель филиала",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "125",
+          "name": "Технический директор (CTO)",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "135",
+          "name": "Финансовый директор (CFO)",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Добыча сырья",
+      "roles": [
+        {
+          "id": "27",
+          "name": "Геодезист",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "28",
+          "name": "Геолог",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "168",
+          "name": "Лаборант",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "63",
+          "name": "Машинист",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "79",
+          "name": "Научный специалист, исследователь",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "82",
+          "name": "Начальник смены, мастер участка",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "49",
+          "name": "Технолог",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Домашний, обслуживающий персонал",
+      "roles": [
+        {
+          "id": "8",
+          "name": "Администратор",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "21",
+          "name": "Водитель",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "23",
+          "name": "Воспитатель, няня",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "32",
+          "name": "Дворник",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "58",
+          "name": "Курьер",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "89",
+          "name": "Официант, бармен, бариста",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "90",
+          "name": "Охранник",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "130",
+          "name": "Уборщица, уборщик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Закупки",
+      "roles": [
+        {
+          "id": "66",
+          "name": "Менеджер по закупкам",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "119",
+          "name": "Специалист по тендерам",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Информационные технологии",
+      "roles": [
+        {
+          "id": "156",
+          "name": "BI-аналитик, аналитик данных",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "160",
+          "name": "DevOps-инженер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "10",
+          "name": "Аналитик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "12",
+          "name": "Арт-директор, креативный директор",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "150",
+          "name": "Бизнес-аналитик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "25",
+          "name": "Гейм-дизайнер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "165",
+          "name": "Дата-сайентист",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "34",
+          "name": "Дизайнер, художник",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "36",
+          "name": "Директор по информационным технологиям (CIO)",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "73",
+          "name": "Менеджер продукта",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "155",
+          "name": "Методолог",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "96",
+          "name": "Программист, разработчик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "164",
+          "name": "Продуктовый аналитик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "104",
+          "name": "Руководитель группы разработки",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "157",
+          "name": "Руководитель отдела аналитики",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "107",
+          "name": "Руководитель проектов",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "112",
+          "name": "Сетевой инженер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "113",
+          "name": "Системный администратор",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "148",
+          "name": "Системный аналитик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "114",
+          "name": "Системный инженер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "116",
+          "name": "Специалист по информационной безопасности",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "121",
+          "name": "Специалист технической поддержки",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "124",
+          "name": "Тестировщик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "125",
+          "name": "Технический директор (CTO)",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "126",
+          "name": "Технический писатель",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Искусство, развлечения, массмедиа",
+      "roles": [
+        {
+          "id": "12",
+          "name": "Арт-директор, креативный директор",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "13",
+          "name": "Артист, актер, аниматор",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "20",
+          "name": "Видеооператор, видеомонтажер",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "25",
+          "name": "Гейм-дизайнер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "34",
+          "name": "Дизайнер, художник",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "41",
+          "name": "Журналист, корреспондент",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "55",
+          "name": "Копирайтер, редактор, корректор",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "98",
+          "name": "Продюсер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "103",
+          "name": "Режиссер, сценарист",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "139",
+          "name": "Фотограф, ретушер",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Маркетинг, реклама, PR",
+      "roles": [
+        {
+          "id": "1",
+          "name": "Event-менеджер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "2",
+          "name": "PR-менеджер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "3",
+          "name": "SMM-менеджер, контент-менеджер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "10",
+          "name": "Аналитик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "12",
+          "name": "Арт-директор, креативный директор",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "34",
+          "name": "Дизайнер, художник",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "37",
+          "name": "Директор по маркетингу и PR (CMO)",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "55",
+          "name": "Копирайтер, редактор, корректор",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "163",
+          "name": "Маркетолог-аналитик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "68",
+          "name": "Менеджер по маркетингу, интернет-маркетолог",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "70",
+          "name": "Менеджер по продажам, менеджер по работе с клиентами",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "71",
+          "name": "Менеджер по работе с партнерами",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "99",
+          "name": "Промоутер",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "170",
+          "name": "Руководитель отдела маркетинга и рекламы",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Медицина, фармацевтика",
+      "roles": [
+        {
+          "id": "8",
+          "name": "Администратор",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "15",
+          "name": "Ассистент врача",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "19",
+          "name": "Ветеринарный врач",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "24",
+          "name": "Врач",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "29",
+          "name": "Главный врач, заведующий отделением",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "42",
+          "name": "Заведующий аптекой",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "168",
+          "name": "Лаборант",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "64",
+          "name": "Медицинская сестра, медицинский брат",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "65",
+          "name": "Медицинский представитель",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "79",
+          "name": "Научный специалист, исследователь",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "151",
+          "name": "Специалист по сертификации",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "133",
+          "name": "Фармацевт-провизор",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Наука, образование",
+      "roles": [
+        {
+          "id": "17",
+          "name": "Бизнес-тренер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "23",
+          "name": "Воспитатель, няня",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "168",
+          "name": "Лаборант",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "167",
+          "name": "Методист",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "79",
+          "name": "Научный специалист, исследователь",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "101",
+          "name": "Психолог",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "132",
+          "name": "Учитель, преподаватель, педагог",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Продажи, обслуживание клиентов",
+      "roles": [
+        {
+          "id": "6",
+          "name": "Агент по недвижимости",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "10",
+          "name": "Аналитик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "154",
+          "name": "Брокер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "51",
+          "name": "Кассир-операционист",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "53",
+          "name": "Коммерческий директор (CCO)",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "54",
+          "name": "Координатор отдела продаж",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "57",
+          "name": "Кредитный специалист",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "70",
+          "name": "Менеджер по продажам, менеджер по работе с клиентами",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "71",
+          "name": "Менеджер по работе с партнерами",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "83",
+          "name": "Оператор call-центра, специалист контактного центра",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "97",
+          "name": "Продавец-консультант, продавец-кассир",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "105",
+          "name": "Руководитель отдела клиентского обслуживания",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "106",
+          "name": "Руководитель отдела продаж",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "161",
+          "name": "Руководитель филиала",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "151",
+          "name": "Специалист по сертификации",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "121",
+          "name": "Специалист технической поддержки",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "122",
+          "name": "Страховой агент",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "129",
+          "name": "Торговый представитель",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Производство, сервисное обслуживание",
+      "roles": [
+        {
+          "id": "174",
+          "name": "Инженер ПНР",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "44",
+          "name": "Инженер по качеству",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "45",
+          "name": "Инженер по охране труда и технике безопасности, инженер-эколог",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "46",
+          "name": "Инженер по эксплуатации",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "48",
+          "name": "Инженер-конструктор, инженер-проектировщик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "169",
+          "name": "Инженер-электроник, инженер-электронщик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "144",
+          "name": "Инженер-энергетик, инженер-электрик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "149",
+          "name": "Контролёр ОТК",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "168",
+          "name": "Лаборант",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "162",
+          "name": "Мастер по ремонту оборудования, техники",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "63",
+          "name": "Машинист",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "152",
+          "name": "Метролог",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "173",
+          "name": "Механик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "79",
+          "name": "Научный специалист, исследователь",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "80",
+          "name": "Начальник производства",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "82",
+          "name": "Начальник смены, мастер участка",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "85",
+          "name": "Оператор производственной линии",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "86",
+          "name": "Оператор станков с ЧПУ",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "109",
+          "name": "Сварщик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "111",
+          "name": "Сервисный инженер, инженер-механик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "115",
+          "name": "Слесарь, сантехник",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "151",
+          "name": "Специалист по сертификации",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "49",
+          "name": "Технолог",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "128",
+          "name": "Токарь, фрезеровщик, шлифовщик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "141",
+          "name": "Швея, портной, закройщик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "143",
+          "name": "Электромонтажник",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Рабочий персонал",
+      "roles": [
+        {
+          "id": "5",
+          "name": "Автослесарь, автомеханик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "21",
+          "name": "Водитель",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "31",
+          "name": "Грузчик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "52",
+          "name": "Кладовщик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "59",
+          "name": "Маляр, штукатур",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "63",
+          "name": "Машинист",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "173",
+          "name": "Механик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "78",
+          "name": "Монтажник",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "85",
+          "name": "Оператор производственной линии",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "86",
+          "name": "Оператор станков с ЧПУ",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "102",
+          "name": "Разнорабочий",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "109",
+          "name": "Сварщик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "111",
+          "name": "Сервисный инженер, инженер-механик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "115",
+          "name": "Слесарь, сантехник",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "128",
+          "name": "Токарь, фрезеровщик, шлифовщик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "131",
+          "name": "Упаковщик, комплектовщик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "143",
+          "name": "Электромонтажник",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Розничная торговля",
+      "roles": [
+        {
+          "id": "9",
+          "name": "Администратор магазина, администратор торгового зала",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "35",
+          "name": "Директор магазина, директор сети магазинов",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "77",
+          "name": "Мерчандайзер",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "97",
+          "name": "Продавец-консультант, продавец-кассир",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "99",
+          "name": "Промоутер",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "123",
+          "name": "Супервайзер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "127",
+          "name": "Товаровед",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Сельское хозяйство",
+      "roles": [
+        {
+          "id": "7",
+          "name": "Агроном",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "19",
+          "name": "Ветеринарный врач",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "43",
+          "name": "Зоотехник",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "63",
+          "name": "Машинист",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "111",
+          "name": "Сервисный инженер, инженер-механик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "49",
+          "name": "Технолог",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Спортивные клубы, фитнес, салоны красоты",
+      "roles": [
+        {
+          "id": "8",
+          "name": "Администратор",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "56",
+          "name": "Косметолог",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "60",
+          "name": "Массажист",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "61",
+          "name": "Мастер ногтевого сервиса",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "70",
+          "name": "Менеджер по продажам, менеджер по работе с клиентами",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "92",
+          "name": "Парикмахер",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "138",
+          "name": "Фитнес-тренер, инструктор тренажерного зала",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Стратегия, инвестиции, консалтинг",
+      "roles": [
+        {
+          "id": "10",
+          "name": "Аналитик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "150",
+          "name": "Бизнес-аналитик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "75",
+          "name": "Менеджер/консультант по стратегии",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "107",
+          "name": "Руководитель проектов",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "134",
+          "name": "Финансовый аналитик, инвестиционный аналитик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Страхование",
+      "roles": [
+        {
+          "id": "11",
+          "name": "Андеррайтер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "91",
+          "name": "Оценщик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "122",
+          "name": "Страховой агент",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Строительство, недвижимость",
+      "roles": [
+        {
+          "id": "6",
+          "name": "Агент по недвижимости",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "14",
+          "name": "Архитектор",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "154",
+          "name": "Брокер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "27",
+          "name": "Геодезист",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "30",
+          "name": "Главный инженер проекта",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "34",
+          "name": "Дизайнер, художник",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "47",
+          "name": "Инженер ПТО, инженер-сметчик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "45",
+          "name": "Инженер по охране труда и технике безопасности, инженер-эколог",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "46",
+          "name": "Инженер по эксплуатации",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "48",
+          "name": "Инженер-конструктор, инженер-проектировщик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "59",
+          "name": "Маляр, штукатур",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "63",
+          "name": "Машинист",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "78",
+          "name": "Монтажник",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "100",
+          "name": "Прораб, мастер СМР",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "102",
+          "name": "Разнорабочий",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "107",
+          "name": "Руководитель проектов",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "108",
+          "name": "Руководитель строительного проекта",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "109",
+          "name": "Сварщик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "115",
+          "name": "Слесарь, сантехник",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "143",
+          "name": "Электромонтажник",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Транспорт, логистика, перевозки",
+      "roles": [
+        {
+          "id": "159",
+          "name": "Бортпроводник",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "21",
+          "name": "Водитель",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "31",
+          "name": "Грузчик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "39",
+          "name": "Диспетчер",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "52",
+          "name": "Кладовщик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "58",
+          "name": "Курьер",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "63",
+          "name": "Машинист",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "67",
+          "name": "Менеджер по логистике, менеджер по ВЭД",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "81",
+          "name": "Начальник склада",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "172",
+          "name": "Руководитель отдела логистики",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "131",
+          "name": "Упаковщик, комплектовщик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Туризм, гостиницы, рестораны",
+      "roles": [
+        {
+          "id": "8",
+          "name": "Администратор",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "72",
+          "name": "Менеджер по туризму",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "74",
+          "name": "Менеджер ресторана",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "76",
+          "name": "Менеджер/руководитель АХО",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "89",
+          "name": "Официант, бармен, бариста",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "94",
+          "name": "Повар, пекарь, кондитер",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "130",
+          "name": "Уборщица, уборщик",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        },
+        {
+          "id": "140",
+          "name": "Хостес",
+          "accept_incomplete_resumes": true,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Управление персоналом, тренинги",
+      "roles": [
+        {
+          "id": "17",
+          "name": "Бизнес-тренер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "38",
+          "name": "Директор по персоналу (HRD)",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "153",
+          "name": "Менеджер по компенсациям и льготам",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "69",
+          "name": "Менеджер по персоналу",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "171",
+          "name": "Руководитель отдела персонала",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "117",
+          "name": "Специалист по кадрам",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "118",
+          "name": "Специалист по подбору персонала",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Финансы, бухгалтерия",
+      "roles": [
+        {
+          "id": "16",
+          "name": "Аудитор",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "154",
+          "name": "Брокер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "18",
+          "name": "Бухгалтер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "50",
+          "name": "Казначей",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "158",
+          "name": "Комплаенс-менеджер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "57",
+          "name": "Кредитный специалист",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "155",
+          "name": "Методолог",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "147",
+          "name": "Специалист по взысканию задолженности",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "134",
+          "name": "Финансовый аналитик, инвестиционный аналитик",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "135",
+          "name": "Финансовый директор (CFO)",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "136",
+          "name": "Финансовый контролер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "137",
+          "name": "Финансовый менеджер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "142",
+          "name": "Экономист",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Юристы",
+      "roles": [
+        {
+          "id": "166",
+          "name": "Директор юридического департамента (CLO)",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "158",
+          "name": "Комплаенс-менеджер",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "145",
+          "name": "Юрисконсульт",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        },
+        {
+          "id": "146",
+          "name": "Юрист",
+          "accept_incomplete_resumes": false,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Другое",
+      "roles": [
+        {
+          "id": "40",
+          "name": "Другое",
+          "accept_incomplete_resumes": true,
+          "is_default": true
+        }
+      ]
+    }
+  ]
+}
